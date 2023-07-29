@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.box:hover{
+    border-top-color:skyblue !important ;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.h-font{
+    font-family: 'Merienda', cursive;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.mj{
+margin-bottom: 1px;
+}
+
+.availability-form{
+margin-top: -50px;
+z-index: 2;
+position: relative;
+}
+
+
+.custom-alert{
+    position: fixed;
+    top: 75px;
+    right: 25px;
+    z-index: 1111;
+}
+
+@media screen and (max-width:575px) {
+.availability-form{
+margin-top: 25px;
+padding: 0 35px;
+
+}
+
+}
+
